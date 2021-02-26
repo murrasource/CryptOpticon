@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "431341c0-4aab-4a39-85a4-8027343e7e4b",
+    "appType": "app",
+    "appDisplayName": "CryptOpticon",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2196f3",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "vulcan",
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "CryptOpticon"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

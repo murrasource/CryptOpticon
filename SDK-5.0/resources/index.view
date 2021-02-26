@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  
+  <symbol id="tile-train" focusable="false" pointer-events="visible"
+  system-events="all">
+    <rect id="train-background" height="100%" />
+    <text id="c_name" font-size="40" x="5" y="40" fill="white"></text>
+    <text id="price"  x="5"   y="78" font-size="30" fill="white"></text>
+    <use id="c_logo" href="#static-image" x="100%-84" y="37" height="47"
+    width="80">
+      <set href="image" attributeName="href"/>
+    </use>
+    <rect id="tile-divider-bottom" height="2" />
+  </symbol>
+  
+  <textarea id="status" class="status">status message to be displayed here</textarea>
+
+ <svg x="10%" y="10%" width="80%" height="80%">
+  <use id="cryptoList" href="#tile-list">
+    <var id="reorder-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2"/>
+
+    <use id="crypto-0" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-1" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-2" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-3" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-4" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-5" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-6" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-7" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-8" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-9" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-10" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-11" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+    <use id="crypto-12" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-13" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-14" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-15" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-16" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-17" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-18" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>    
+    <use id="crypto-19" href="#tile-list-item" class="item">
+      <use href="#tile-train" />
+    </use>
+  </use>
+  </svg>
+</svg>
